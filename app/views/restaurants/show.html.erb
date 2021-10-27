@@ -1,9 +1,9 @@
 <h1>Restaurants Details</h1>
 
 <p><strong>Name :</strong><%= @restaurant.name %></p>
-<p><strong>Address :</stong><%= @restaurant.address %></p>
+<p><strong>Address :</strong><%= @restaurant.address %></p>
 <p><strong>Phone number :</strong><%= @restaurant.phone_number %></p>
-<p><stong>category :</strong><%= @restaurant.category%> </p>
+<p><strong>category :</strong><%= @restaurant.category%> </p>
 <ul class="list-group">
   <% @restaurant.reviews.each do |review| %>
   <h5>Content</h5>
